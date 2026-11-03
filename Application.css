@@ -1,0 +1,54 @@
+body {
+    background-color: midnightblue;
+    color: whitesmoke;  
+}
+
+.container {
+    background-color: #ffffff1a;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    box-shadow: 0 5px 15px black;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+
+/* input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+
+input:focus, textarea:focus {
+  border-color: blue;
+  outline: none;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: lightblue;
+  box-shadow: 0 0 5px blue;
+}
+
+input[type="radio"]:checked + label {
+  color: blue;
+}
+
+input:first-of-type {
+  border-radius: 10px;
+}
+ */
