@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.feature-card-container {
+  width: 700px;
+  margin: 30px;
+}
+
+.feature-card {
+  display: inline-block;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  height: 20vh;
+  width: 45vw;
+  margin: 10px;
+}
+
+.feature-card:hover {
+  background-color: #f1be32;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  margin: 8px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid #f1be32;
+  border-radius: 4px;
+  background-color: white;
+  transition: all 0.3s;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+input[type='checkbox']:checked {
+  background-color: #f1be32;
+  border-color: #e2a60d;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 20px;
+}
