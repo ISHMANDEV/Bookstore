@@ -1,23 +1,25 @@
 body {
-  height: 100vh;
   background-color: #f0f0f0;
 }
 .feature-card-container {
-  width: 700px;
-  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .feature-card {
-  display: inline-block;
+  width: calc(50% - 100px); 
   border: 2px solid #000000;
-  border-radius: 20px;
-  height: 20vh;
-  width: 45vw;
+  border-radius: 15px;
+  height: 15vh;
   margin: 10px;
 }
 
 .feature-card:hover {
-  background-color: #f1be32;
+  box-shadow: 0 0 20px #f1be32;
 }
 
 h1 {
@@ -45,9 +47,9 @@ input[type='checkbox'] {
   margin-right: 15px;
 }
 
-input[type='checkbox']:checked {
+input[type="checkbox"]:checked {
   background-color: #f1be32;
-  border-color: #e2a60d;
+  border-color: #f1be32;
 }
 
 input[type="checkbox"]:checked::after {
